@@ -8,7 +8,7 @@ import java.util.Optional;
 
 public interface ITodoService {
 
-    List<Todo> getTodosByUser(String user);
+    List<Todo> getAllTodoByUser(String user);
 
     Optional<Todo> getTodoById(long id);
 
