@@ -36,7 +36,7 @@ public class TodoController {
     public String showTodos(ModelMap model) {
         String name = getLoggedInUserName(model);
         model.put("todos", todoService.getAllTodoByUser(name));
-        // model.put("todos", service.retrieveTodos(name));
+//         model.put("todos", service.retrieveTodos(name));
         return "list-todos";
     }
 

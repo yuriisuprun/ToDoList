@@ -1,5 +1,5 @@
-<%@ include file="common/header.jspf"%>
-<%@ include file="common/navigation.jspf"%>
+<%@ include file="jspfs/header.jspf"%>
+<%@ include file="jspfs/navigation.jspf"%>
 <div class="container">
 
 	<div class="panel panel-primary">

@@ -26,4 +26,5 @@ public class WelcomeController {
 
         return principal.toString();
     }
+
 }
